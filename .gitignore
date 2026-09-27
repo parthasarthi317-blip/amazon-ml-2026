@@ -1,26 +1,15 @@
-# Data
-data/*
-!data/.gitkeep
-
-# Models
-models/*
-!models/.gitkeep
-
-# Submissions
-submissions/*
-
-# Python
+.venv/
 __pycache__/
 *.pyc
-.venv/
-venv/
-.env
+*.pyo
 
-# Jupyter
-.ipynb_checkpoints/
-
-# OS
+ml challenge dataset/
+__MACOSX/
 .DS_Store
-Thumbs.db
 
-6ab10eb3b23ba_student_resource/
+*.db
+models/*.db
+
+experiments/clean_v2_predictions.tsv
+experiments/clean_v2_predictions_labeled.tsv
+experiments/clean_validation_predictions.tsv
